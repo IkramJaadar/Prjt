@@ -1,0 +1,236 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\all.css" />
+    <None Include="wwwroot\css\animate.css" />
+    <None Include="wwwroot\css\aos.css" />
+    <None Include="wwwroot\css\bootstrap.min.css" />
+    <None Include="wwwroot\css\flaticon.css" />
+    <None Include="wwwroot\css\font-awesome.min.css" />
+    <None Include="wwwroot\css\gijgo.min.css" />
+    <None Include="wwwroot\css\magnific-popup.css" />
+    <None Include="wwwroot\css\nice-select.css" />
+    <None Include="wwwroot\css\owl.carousel.min.css" />
+    <None Include="wwwroot\css\site.css" />
+    <None Include="wwwroot\css\slick.css" />
+    <None Include="wwwroot\css\style.css" />
+    <None Include="wwwroot\css\style.map" />
+    <None Include="wwwroot\css\swiper.min.css" />
+    <None Include="wwwroot\css\themify-icons.css" />
+    <None Include="wwwroot\favicon.ico" />
+    <None Include="wwwroot\fonts\Flaticon.eot" />
+    <None Include="wwwroot\fonts\Flaticon.ttf" />
+    <None Include="wwwroot\fonts\Flaticon.woff" />
+    <None Include="wwwroot\fonts\Flaticon.woff2" />
+    <None Include="wwwroot\fonts\fontawesome-webfont.eot" />
+    <None Include="wwwroot\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\fonts\fontawesome-webfont.ttf" />
+    <None Include="wwwroot\fonts\fontawesome-webfont.woff" />
+    <None Include="wwwroot\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\fonts\FontAwesome.otf" />
+    <None Include="wwwroot\fonts\gijgo-material.ttf" />
+    <None Include="wwwroot\fonts\gijgo-material.woff" />
+    <None Include="wwwroot\fonts\themify.eot" />
+    <None Include="wwwroot\fonts\themify.svg" />
+    <None Include="wwwroot\fonts\themify.ttf" />
+    <None Include="wwwroot\fonts\themify.woff" />
+    <None Include="wwwroot\img\about_us_1.png" />
+    <None Include="wwwroot\img\about_us_2.png" />
+    <None Include="wwwroot\img\about_us_3.png" />
+    <None Include="wwwroot\img\artist\artist_1.png" />
+    <None Include="wwwroot\img\artist\artist_2.png" />
+    <None Include="wwwroot\img\artist\artist_3.png" />
+    <None Include="wwwroot\img\banner_bg.png" />
+    <None Include="wwwroot\img\banner_bg_1.png" />
+    <None Include="wwwroot\img\blog\author.png" />
+    <None Include="wwwroot\img\blog\blog_1.png" />
+    <None Include="wwwroot\img\blog\blog_2.png" />
+    <None Include="wwwroot\img\blog\blog_3.png" />
+    <None Include="wwwroot\img\blog\blog_4.png" />
+    <None Include="wwwroot\img\blog\learn_about_bg.png" />
+    <None Include="wwwroot\img\blog\single_blog_1.png" />
+    <None Include="wwwroot\img\blog\single_blog_2.png" />
+    <None Include="wwwroot\img\blog\single_blog_3.png" />
+    <None Include="wwwroot\img\blog\single_blog_4.png" />
+    <None Include="wwwroot\img\blog\single_blog_5.png" />
+    <None Include="wwwroot\img\blog\slide_thumb_1.png" />
+    <None Include="wwwroot\img\breadcrumb.png" />
+    <None Include="wwwroot\img\client\client_1.png" />
+    <None Include="wwwroot\img\comment\comment_1.png" />
+    <None Include="wwwroot\img\comment\comment_2.png" />
+    <None Include="wwwroot\img\comment\comment_3.png" />
+    <None Include="wwwroot\img\elements\a.jpg" />
+    <None Include="wwwroot\img\elements\a2.jpg" />
+    <None Include="wwwroot\img\elements\d.jpg" />
+    <None Include="wwwroot\img\elements\disabled-check.png" />
+    <None Include="wwwroot\img\elements\disabled-radio.png" />
+    <None Include="wwwroot\img\elements\f1.jpg" />
+    <None Include="wwwroot\img\elements\f2.jpg" />
+    <None Include="wwwroot\img\elements\f3.jpg" />
+    <None Include="wwwroot\img\elements\f4.jpg" />
+    <None Include="wwwroot\img\elements\f5.jpg" />
+    <None Include="wwwroot\img\elements\f6.jpg" />
+    <None Include="wwwroot\img\elements\f7.jpg" />
+    <None Include="wwwroot\img\elements\f8.jpg" />
+    <None Include="wwwroot\img\elements\g1.jpg" />
+    <None Include="wwwroot\img\elements\g2.jpg" />
+    <None Include="wwwroot\img\elements\g3.jpg" />
+    <None Include="wwwroot\img\elements\g4.jpg" />
+    <None Include="wwwroot\img\elements\g5.jpg" />
+    <None Include="wwwroot\img\elements\g6.jpg" />
+    <None Include="wwwroot\img\elements\g7.jpg" />
+    <None Include="wwwroot\img\elements\g8.jpg" />
+    <None Include="wwwroot\img\elements\primary-check.png" />
+    <None Include="wwwroot\img\elements\primary-radio.png" />
+    <None Include="wwwroot\img\elements\success-check.png" />
+    <None Include="wwwroot\img\elements\success-radio.png" />
+    <None Include="wwwroot\img\favicon.png" />
+    <None Include="wwwroot\img\icon\cutter.svg" />
+    <None Include="wwwroot\img\icon\left_1.svg" />
+    <None Include="wwwroot\img\icon\left_2.svg" />
+    <None Include="wwwroot\img\icon\left_3.svg" />
+    <None Include="wwwroot\img\icon\play.svg" />
+    <None Include="wwwroot\img\icon\quate.svg" />
+    <None Include="wwwroot\img\icon\scissors.svg" />
+    <None Include="wwwroot\img\logo.png" />
+    <None Include="wwwroot\img\offer_img_1.png" />
+    <None Include="wwwroot\img\offer_img_2.png" />
+    <None Include="wwwroot\img\offer_img_3.png" />
+    <None Include="wwwroot\img\offer_img_4.png" />
+    <None Include="wwwroot\img\post\next.png" />
+    <None Include="wwwroot\img\post\post_1.png" />
+    <None Include="wwwroot\img\post\post_10.png" />
+    <None Include="wwwroot\img\post\post_2.png" />
+    <None Include="wwwroot\img\post\post_3.png" />
+    <None Include="wwwroot\img\post\post_4.png" />
+    <None Include="wwwroot\img\post\post_5.png" />
+    <None Include="wwwroot\img\post\post_6.png" />
+    <None Include="wwwroot\img\post\post_7.png" />
+    <None Include="wwwroot\img\post\post_8.png" />
+    <None Include="wwwroot\img\post\post_9.png" />
+    <None Include="wwwroot\img\post\preview.png" />
+    <None Include="wwwroot\img\pricing_img\pricing_img_1.png" />
+    <None Include="wwwroot\img\pricing_img\pricing_img_2.png" />
+    <None Include="wwwroot\img\pricing_img\pricing_img_3.png" />
+    <None Include="wwwroot\img\pricing_img\pricing_img_4.png" />
+    <None Include="wwwroot\img\pricing_img\pricing_img_5.png" />
+    <None Include="wwwroot\img\pricing_img\pricing_img_6.png" />
+    <None Include="wwwroot\img\pricing_img\pricing_img_7.png" />
+    <None Include="wwwroot\img\pricing_img\pricing_img_8.png" />
+    <None Include="wwwroot\img\Quote.png" />
+    <None Include="wwwroot\img\reservation_bg.png" />
+    <None Include="wwwroot\img\review_bg.png" />
+    <None Include="wwwroot\img\section_tittle_icon.png" />
+    <None Include="wwwroot\img\service\single_service_1.png" />
+    <None Include="wwwroot\img\service\single_service_2.png" />
+    <None Include="wwwroot\img\service\single_service_3.png" />
+    <None Include="wwwroot\js\aos.js" />
+    <None Include="wwwroot\js\bootstrap.min.js" />
+    <None Include="wwwroot\js\contact.js" />
+    <None Include="wwwroot\js\custom.js" />
+    <None Include="wwwroot\js\gijgo.min.js" />
+    <None Include="wwwroot\js\gmaps.min.js" />
+    <None Include="wwwroot\js\jquery-1.12.1.min.js" />
+    <None Include="wwwroot\js\jquery-3.3.1.slim.min.js" />
+    <None Include="wwwroot\js\jquery.ajaxchimp.min.js" />
+    <None Include="wwwroot\js\jquery.easing.min.js" />
+    <None Include="wwwroot\js\jquery.form.js" />
+    <None Include="wwwroot\js\jquery.magnific-popup.js" />
+    <None Include="wwwroot\js\jquery.nice-select.min.js" />
+    <None Include="wwwroot\js\jquery.validate.min.js" />
+    <None Include="wwwroot\js\mail-script.js" />
+    <None Include="wwwroot\js\masonry.pkgd.js" />
+    <None Include="wwwroot\js\masonry.pkgd.min.js" />
+    <None Include="wwwroot\js\owl.carousel.min.js" />
+    <None Include="wwwroot\js\particles.min.js" />
+    <None Include="wwwroot\js\popper.min.js" />
+    <None Include="wwwroot\js\site.js" />
+    <None Include="wwwroot\js\slick.min.js" />
+    <None Include="wwwroot\js\swiper.min.js" />
+    <None Include="wwwroot\js\swiper_custom.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\LICENSE" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt" />
+    <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\LICENSE.md" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.min.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.min.map" />
+    <None Include="wwwroot\lib\jquery\LICENSE.txt" />
+    <None Include="wwwroot\sass\style.scss" />
+    <None Include="wwwroot\sass\_about.scss" />
+    <None Include="wwwroot\sass\_artist_part.scss" />
+    <None Include="wwwroot\sass\_banner.scss" />
+    <None Include="wwwroot\sass\_blog.scss" />
+    <None Include="wwwroot\sass\_blog_part.scss" />
+    <None Include="wwwroot\sass\_breadcrumb.scss" />
+    <None Include="wwwroot\sass\_button.scss" />
+    <None Include="wwwroot\sass\_common.scss" />
+    <None Include="wwwroot\sass\_contact.scss" />
+    <None Include="wwwroot\sass\_copyright_part.scss" />
+    <None Include="wwwroot\sass\_elements.scss" />
+    <None Include="wwwroot\sass\_extends.scss" />
+    <None Include="wwwroot\sass\_food_menu.scss" />
+    <None Include="wwwroot\sass\_footer.scss" />
+    <None Include="wwwroot\sass\_menu.scss" />
+    <None Include="wwwroot\sass\_mixins.scss" />
+    <None Include="wwwroot\sass\_our_offer.scss" />
+    <None Include="wwwroot\sass\_portfolio.scss" />
+    <None Include="wwwroot\sass\_priceing_part.scss" />
+    <None Include="wwwroot\sass\_project_details.scss" />
+    <None Include="wwwroot\sass\_regervation_part.scss" />
+    <None Include="wwwroot\sass\_review.scss" />
+    <None Include="wwwroot\sass\_service.scss" />
+    <None Include="wwwroot\sass\_single_blog.scss" />
+    <None Include="wwwroot\sass\_social_connect_part.scss" />
+    <None Include="wwwroot\sass\_team.scss" />
+    <None Include="wwwroot\sass\_variables.scss" />
+    <None Include="wwwroot\webfonts\fa-brands-400.eot" />
+    <None Include="wwwroot\webfonts\fa-brands-400.svg" />
+    <None Include="wwwroot\webfonts\fa-brands-400.ttf" />
+    <None Include="wwwroot\webfonts\fa-brands-400.woff" />
+    <None Include="wwwroot\webfonts\fa-brands-400.woff2" />
+    <None Include="wwwroot\webfonts\fa-regular-400.eot" />
+    <None Include="wwwroot\webfonts\fa-regular-400.svg" />
+    <None Include="wwwroot\webfonts\fa-regular-400.ttf" />
+    <None Include="wwwroot\webfonts\fa-regular-400.woff" />
+    <None Include="wwwroot\webfonts\fa-regular-400.woff2" />
+    <None Include="wwwroot\webfonts\fa-solid-900.eot" />
+    <None Include="wwwroot\webfonts\fa-solid-900.svg" />
+    <None Include="wwwroot\webfonts\fa-solid-900.ttf" />
+    <None Include="wwwroot\webfonts\fa-solid-900.woff" />
+    <None Include="wwwroot\webfonts\fa-solid-900.woff2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Stripe.net" Version="42.2.0" />
+  </ItemGroup>
+
+</Project>
